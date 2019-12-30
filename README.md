@@ -20,7 +20,7 @@ or add
 
 to the require section of your composer.json.
 
-To use this extension, add to main config in gii section following code:
+To use this template, add to main config in gii section following code:
 
 ```php
     'gii' => [
@@ -35,3 +35,4 @@ To use this extension, add to main config in gii section following code:
             ....
         ],
 ```
+Changing "Code Template" to Gentelella in Gii Generator panel.
