@@ -1,17 +1,28 @@
 {
-    "name": "zgb7mtr/yii2-gii-crud-gentelella",
-    "description": "A Gentelella based CRUD template for Yii2",
-    "type": "yii2-extension",
-    "keywords": ["yii2", "extension"],
-    "license": "MIT",
-    "version":"1.0.0",
-    "authors": [
-        {
-            "name": "Tommy Zheng",
-            "email": "tommy@vlv.pw"
-        }
-    ],
-    "require": {
-        "yiisoft/yii2": "~2.0.0"
-    }    
+  "name": "zgb7mtr/yii2-gii-crud-gentelella",
+  "description": "A Gentelella based CRUD template for Yii2",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "zgb7mtr"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Tommy Zheng",
+      "email": "tommy@vlv.pw"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0",
+    "yiisoft/yii2-bootstrap": "~2.0.0",
+    "yiister/yii2-gentelella": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "zgb7mtr\\gentelella\\": "src"
+    }
+  }
 }
